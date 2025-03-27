@@ -3,6 +3,9 @@
 An easy drop-in setup for your Hey API client generators.
 
 ```typescript
+import { HeyApi } from "vite-hey-api-plugin";
+import { defineConfig } from "vite";
+
 const config = defineConfig({
     plugins: [
         HeyApi(
