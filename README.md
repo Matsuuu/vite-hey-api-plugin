@@ -2,6 +2,14 @@
 
 An easy drop-in setup for your Hey API client generators.
 
+## Install
+
+```bash
+npm install -D vite-hey-api-plugin
+```
+
+## Usage
+
 ```typescript
 import { HeyApi } from "vite-hey-api-plugin";
 import { defineConfig } from "vite";
